@@ -1,3 +1,5 @@
+/* In a program, input 3 numbers: A, B andC. Youhave to output the average of
+ these 3 numbers.*/
 import java.util.*;
 
 public class AverageOfNos {
@@ -11,5 +13,6 @@ public class AverageOfNos {
         System.out.println("Enter 3rd number : " + C);
         int average = (A + B + C) / 3;
         System.out.println("average is : " + average);
+        sc.close();
     }
 }
