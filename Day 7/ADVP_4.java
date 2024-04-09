@@ -1,5 +1,5 @@
 import java.util.*;
-public class p_lec_4_2 {
+public class ADVP_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -10,5 +10,6 @@ public class p_lec_4_2 {
             System.out.print(" ");
             System.out.println();
         }
+        sc.close();
     }
 }
